@@ -186,3 +186,80 @@ footer div {
 .bottom-row {
     margin-bottom: 0px;
 }
+
+/*
+    You use `980px` because you never want any of the content to be cut off. Since the desktop layout is about 960px wide, you want the media queries to kick in before your content gets cut off.
+*/
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+    header nav {
+        float: none;
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    footer div {
+        left: 46%;
+    }
+
+    .top-header {
+        position: static;
+    }
+
+    .name-header {
+        width: 100%;
+        padding: 20px 0px;
+        text-align: center;
+        float: none;
+    }
+
+    .main-width{
+        max-width: 640px;
+        width: 100%;
+    }
+
+    .mobile-main {
+        width: 90%;
+    }
+
+    .profile-image {
+        max-width: 100%;
+        width: 100%;
+        max-height: none;
+        margin-right: 0px;
+        margin-bottom: 20px; 
+        float: none;
+    }
+
+    .portfolio-image-wrapper {
+        width: 100%;
+        height: auto;
+        margin-right: 0px;
+    }
+
+    .portfolio-image {
+        width: 100%;
+    }
+
+    .portfolio-wrap {
+        position: absolute;
+        left: 5%;
+    }
+
+    .portfolio-footer {
+        display: none; /* Remove this once you find a fix for it */
+    }
+
+    .image-title {
+        padding: 20px 0px;
+        bottom: 80px;
+    }
+
+}
