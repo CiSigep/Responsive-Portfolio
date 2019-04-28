@@ -1,0 +1,188 @@
+/* Element Styling */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777; 
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../images/rockywall.png");
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header nav {
+    float: right;
+    margin-top: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+header nav a:hover {
+    text-decoration: none;
+    color: #000000; 
+    padding: 0px 10px;
+}
+
+header nav a:nth-child(2) {
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #4AAAA5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+    border: 2px solid #DDDDDD;
+}
+
+section p {
+    margin-top: 0px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px; 
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background: #4AAAA5;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    margin: 0px;
+    border: none;
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+footer div {
+    color: #DDDDDD;
+    font-size: 8pt;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+}
+
+/* Class Styling */
+.name-header {
+    float: left;
+    background: #4AAAA5;
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 0px;
+}
+
+.top-header {
+    margin-top: 0px;
+    background: #FFFFFF;
+    border-bottom: #CCCCCC 1px solid;
+    margin-bottom: 40px;
+}
+
+.main-width {
+    width: 960px;
+}
+
+.center-horizontal {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clear {
+    overflow: auto;
+}
+
+.main-wrapper {
+    min-height: calc(100% - 58px);
+}
+
+.main-content {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+    margin-bottom: 40px; 
+}
+
+.top-margin-25 {
+    margin-top: 25px;
+}
+
+.no-top-margin {
+    margin-top: 0;
+}
+
+.profile-image {
+    float: left;
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 20px;
+}
+
+.portfolio-image-wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+.portfolio-image {
+    z-index: 1;
+}
+
+.image-title {
+    z-index: 2;
+    background: #4AAAA5;
+    padding: 15px 0px;
+    position: relative;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.image-title a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.row {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.bottom-row {
+    margin-bottom: 0px;
+}
