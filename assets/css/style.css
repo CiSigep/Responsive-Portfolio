@@ -195,7 +195,43 @@ footer div {
 }
 
 @media screen and (max-width: 768px) {
+    .profile-image {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    
+    .main-width {
+        max-width: 728px;
+        width: 100%;
+    }
 
+    .portfolio-image-wrapper{
+        width: 300px;
+        height: auto;
+        margin-right: 40px;
+    }
+
+    .portfolio-image {
+        width: 300px;
+    }
+
+    .row {
+        height: auto;
+    }
+
+    .portfolio-wrap {
+        position: absolute;
+        left: 20px;
+    }
+
+    .portfolio-footer {
+        display: none; /* Remove this once you find a fix for it */
+    }
+
+    .mobile-768-right {
+        float: right;
+        margin-right: 0px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -248,10 +284,6 @@ footer div {
         width: 100%;
     }
 
-    .portfolio-wrap {
-        position: absolute;
-        left: 5%;
-    }
 
     .portfolio-footer {
         display: none; /* Remove this once you find a fix for it */
