@@ -158,6 +158,7 @@ footer div {
 
 .portfolio-image {
     z-index: 1;
+    width: 200px;
 }
 
 .image-title {
@@ -191,7 +192,15 @@ footer div {
     You use `980px` because you never want any of the content to be cut off. Since the desktop layout is about 960px wide, you want the media queries to kick in before your content gets cut off.
 */
 @media screen and (max-width: 980px) {
+    .main-content {
+        width: 700px;
+        float: left;
+        margin-left: 10px;
+    }
 
+    .portfolio-footer {
+        display: none; /* Remove this once you find a fix for it */
+    }
 }
 
 @media screen and (max-width: 768px) {
