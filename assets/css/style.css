@@ -165,8 +165,8 @@ footer div {
     z-index: 2;
     background: #4AAAA5;
     padding: 15px 0px;
-    position: relative;
-    bottom: 60px;
+    position: absolute;
+    bottom: 10px;
     left: 0;
     right: 0;
     width: 100%;
@@ -194,12 +194,7 @@ footer div {
 @media screen and (max-width: 980px) {
     .main-content {
         width: 700px;
-        float: left;
         margin-left: 10px;
-    }
-
-    .portfolio-footer {
-        display: none; /* Remove this once you find a fix for it */
     }
 }
 
@@ -209,6 +204,12 @@ footer div {
         max-height: 300px;
     }
     
+    .main-content {
+        float: none;
+        width: 90%;
+        margin-left: auto;
+    }
+
     .main-width {
         max-width: 728px;
         width: 100%;
@@ -228,13 +229,8 @@ footer div {
         height: auto;
     }
 
-    .portfolio-wrap {
-        position: absolute;
-        left: 20px;
-    }
-
-    .portfolio-footer {
-        display: none; /* Remove this once you find a fix for it */
+    .mobile-768-clear {
+        overflow: auto;
     }
 
     .mobile-768-right {
@@ -248,6 +244,10 @@ footer div {
         float: none;
         margin: 20px 0px;
         text-align: center;
+    }
+
+    .mobile-640-b50-i {
+        bottom: 50px!important;
     }
 
     footer div {
@@ -274,6 +274,10 @@ footer div {
         width: 90%;
     }
 
+    .mobile-640-mb30 {
+        margin-bottom: 30px;
+    }
+
     .profile-image {
         max-width: 100%;
         width: 100%;
@@ -293,14 +297,9 @@ footer div {
         width: 100%;
     }
 
-
-    .portfolio-footer {
-        display: none; /* Remove this once you find a fix for it */
-    }
-
     .image-title {
         padding: 20px 0px;
-        bottom: 80px;
+        bottom: 20px;
     }
 
 }
