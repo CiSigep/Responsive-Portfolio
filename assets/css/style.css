@@ -109,7 +109,8 @@ footer div {
 }
 
 .main-width {
-    width: 960px;
+    max-width: 960px;
+    width: 100%;
 }
 
 .center-horizontal {
@@ -212,17 +213,18 @@ footer div {
 
     .main-width {
         max-width: 728px;
-        width: 100%;
+        width: 90%;
     }
 
     .portfolio-image-wrapper{
-        width: 300px;
+        width: 48%;
         height: auto;
-        margin-right: 40px;
+        margin-right: 0;
     }
 
     .portfolio-image {
-        width: 300px;
+        width: 100%;
+        margin-right: 10px;
     }
 
     .row {
